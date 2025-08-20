@@ -1,0 +1,44 @@
+{
+  "name": "@livyn/metadata",
+  "version": "1.0.0",
+  "description": "A lightweight metadata management system for JavaScript/Node.js, supporting TTL, freeze, overwrite, merge, and runtime queries.",
+  "type": "module",
+  "exports": {
+    "default": "./index.js",
+    "import": "./index.js"
+  },
+  "scripts": {
+    "test": "node samples/metadata/command.js",
+    "test:meta": "node samples/testCreateMeta.js",
+    "test:err": "node samples/testErr.js"
+  },
+  "author": "dimas",
+  "license": "MIT",
+  "homepage": "https://github.com/fajardison/livyn-metadata",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fajardison/livyn-metadata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fajardison/livyn-metadata/issues"
+  },
+  "files": [
+    "commands/",
+    "helpers/",
+    "queries/",
+    "MetaStore.js",
+    "CacheStore.js",
+    "index.js",
+    "CHANGELOG.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "livyn",
+    "metadata",
+    "meta"
+  ],
+  "dependencies": {
+    "@velosjs/cache": "^1.0.0"
+  }
+}

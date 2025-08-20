@@ -247,4 +247,4 @@ console.log(metadata.get(LivynProfile, 'framework.ui.banner'));
 
 ## License
 
-This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/fajardison/livyn/blob/main/LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/fajardison/livyn-metadata/tree/main?tab=MIT-1-ov-file) file for details.
